@@ -52,7 +52,7 @@ export default function Game(){
                 {
                     animals.map((animal) => {
                         <div key={animal.id} className="animal-card" onClick={() => handleAnimalClick(animal.id)}>
-                            
+                          <img src={animal.img} alt={animal.name} />  
                           
                         </div>
                     })
