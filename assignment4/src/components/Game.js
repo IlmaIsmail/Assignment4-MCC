@@ -51,8 +51,9 @@ export default function Game(){
             <div className="animal-grid">
                 {
                     animals.map((animal) => {
-                        <div>
+                        <div key={animal.id} className="animal-card" onClick={() => handleAnimalClick(animal.id)}>
                             
+                          
                         </div>
                     })
                 }
