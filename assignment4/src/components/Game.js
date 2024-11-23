@@ -22,7 +22,13 @@ export default function Game(){
     const restartGame = () => {
         setTargetAnimal(getRandomAnimal());
         setResult(null);
-    }
+    };
+
+
+
+    return(
+        
+    )
 }
 
 
