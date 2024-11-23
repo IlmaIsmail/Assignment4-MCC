@@ -30,7 +30,9 @@ export default function Game(){
       <>
         <div className="game-page">
             <div>
+                <hr/>
                 <h1>Animal Matching Game</h1>
+                <hr/>
             </div>
             <div>
                 <div>
