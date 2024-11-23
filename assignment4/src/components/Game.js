@@ -12,7 +12,7 @@ export default function Game(){
     }
 
     const handleAnimalClick = (id) =>{
-        if(id === targerAnimal.id){
+        if(id === targetAnimal.id){
             setResult("Win");
         } else {
             setResult("Lose");
