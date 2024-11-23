@@ -18,6 +18,11 @@ export default function Game(){
             setResult("Lose");
         }
     };
+
+    const restartGame = () => {
+        setTargetAnimal(getRandomAnimal());
+        setResult(null);
+    }
 }
 
 
