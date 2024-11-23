@@ -32,6 +32,31 @@ export default function Game(){
             <div>
                 <h1>Animal Matching Game</h1>
             </div>
+            <div>
+                <div>
+                    {result && (
+                        <div className="result">
+                            <h2>Result</h2>
+                            <h2>{result}</h2>
+                            <button onClick={restartGame}>Play Again</button>
+                        </div>
+                    )}
+                </div>
+            </div>
+
+            <div className="game-header">
+                <h2>Animal Name: {targetAnimal.name}</h2>
+            </div>
+
+            <div className="animal-grid">
+                {
+                    animals.map((animal) => {
+                        <div>
+                            
+                        </div>
+                    })
+                }
+            </div>
 
         </div>
       </>  
