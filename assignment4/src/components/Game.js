@@ -27,7 +27,14 @@ export default function Game(){
 
 
     return(
-        
+      <>
+        <div className="game-page">
+            <div>
+                <h1>Animal Matching Game</h1>
+            </div>
+
+        </div>
+      </>  
     )
 }
 
